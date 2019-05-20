@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+  display: block;
+}
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
+  padding: 3%;
+  letter-spacing: 3px;
+  font-size: 3em;
+}
+
+h2 {
+  font-family: 'Abril Fatface', cursive;
+  letter-spacing: 2px;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 5%;
+}
+
+p {
+  font-family: 'Thasadith', sans-serif;
+  line-height: 170%;
+  padding: 5%;
+  text-align: center;
+}
+
+body {
+  font-family: 'Thasadith', sans-serif;
+  background-color: #eed1ea;
+}
+
+/* Start Nav*/
+
+nav {
+  background-color: black;
+  padding: 2%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+nav a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 50px;
+  text-align: center;
+  padding: 3% 0 6% 0;
+}
